@@ -18,14 +18,14 @@ public class Array2D {
 			for(int j=0;j<2;j++)//columns
 			{
 				//printing the array
-				System.out.println(arr[i][j]+"");
-		        System.out.println();
-	         }
+				System.out.println(arr[i][j]+"");				
+		                System.out.println();
+	                }
 		}
 		//initializing an array
 		int [][] arr1= {{3,4,5},{6,7,8}};
 		//printing number of rows and columns of array
 		System.out.println("no.of rows in arr1 " +arr1.length);
-        System.out.println("no.of columns in arr1 " +arr1[0].length);
+                System.out.println("no.of columns in arr1 " +arr1[0].length);
 	}
  }
